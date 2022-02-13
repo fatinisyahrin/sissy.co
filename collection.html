@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" This is a website about the collection of Sissy.co.">
+    <meta name="keywords" content="cakesicles, korean tom n Jerry pinata cake.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="collection.css">
+    <title>Collection | Sissy.co</title>
+</head>
+  <body style="background-color:#eaeaea;">
+    <div class="header">
+      <h1><b>Sissy.co</h1></b>
+      <p>something sweet inside</p>
+    </div>
+  
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="cakes.html">About Us</a>
+    <a href="upcomingmenu.html">Upcoming Menu</a>
+    <a href="services.html">Services</a>
+    <a href="collection.html" class="active">Collection</a>
+    <div class="dropdown">
+      <button class="dropbtn">More
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="recipes.html">Recipes</a>
+        <a href="contactus.html">Contact Us</a>
+      </div>
+    </div> 
+    <div class="login-container">
+      <form action="/action_page.php">
+        <input type="text" placeholder="Username" name="username">
+        <input type="text" placeholder="Password" name="psw">
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </div>
+
+
+  <div class="w3-container w3-center w3-animate-opacity">
+  <!-- The App Section -->
+  <div class="mySlides fade">
+    <img src="offer1.png" width="100%">
+    </div>
+  <div class="mySlides fade">
+    <img src="offer2.png" width="100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="offer3.png" width="100%">
+  </div>
+</div>
+  <br>
+
+
+  <!-- Collection -->
+  <h2>Best Collection</h2>
+  <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('cakesicles')"> Cakesicles</button>
+    <button class="btn" onclick="filterSelection('koreantomnjerrycake')"> Korean Tom & Jerry Cake</button>
+    <button class="btn" onclick="filterSelection('pinatacake')"> Pinata Cake</button>
+  </div>
+
+
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column cakesicles">
+    <div class="content">
+      <img src="c12.jpeg" alt="Cakesicles" style="width:100%">
+      <h4>Cakesicles</h4>
+      <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+      <p>A combination of pink & blue</p>
+    </div>
+  </div>
+  <div class="column cakesicles">
+    <div class="content">
+      <img src="c16.jpeg" alt="Cakesicles" style="width:100%">
+      <h4>Cakesicles</h4>
+      <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+      <p>A combination of purple & green</p>
+    </div>
+  </div>
+  <div class="column cakesicles">
+    <div class="content">
+      <img src="c.jpeg" alt="Cakesicles" style="width:100%">
+      <h4>Cakesickles</h4>
+      <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+      <p>A combination of soft wheat & chocolate</p>
+    </div>
+  </div>
+
+  <div class="column koreantomnjerrycake">
+    <div class="content">
+      <img src="k3.jpeg" alt="Korean Tom & Jerry Cake" style="width:100%">
+      <h4>Korean Tom N Jerry Cake</h4>
+      <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+      <p>A combination of light & dark purple</p>
+    </div>
+  </div>
+  <div class="column koreantomnjerrycake">
+    <div class="content">
+      <img src="k2.jpeg" alt="Korean Tom & Jerry Cake" style="width:100%">
+      <h4>Korean Tom N Jerry Cake</h4>
+      <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+      <p>A combination of soft wheat & blue</p>
+    </div>
+  </div>
+  <div class="column koreantomnjerrycake">
+    <div class="content">
+      <img src="k5.jpeg" alt="Korean Tom & Jerry Cake" style="width:100%">
+      <h4>Korean Tom N Jerry Cake</h4>
+      <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+      <p>A combination of basil & orchid</p>
+    </div>
+  </div>
+
+  <div class="column pinatacake">
+    <div class="content">
+      <img src="p1.jpeg" alt="Pinata Cake" style="width:100%">
+      <h4>Pinata Cake</h4>
+      <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+      <p>A combination of flamingo & rosewood</p>
+    </div>
+  </div>
+  <div class="column pinatacake">
+    <div class="content">
+      <img src="p2.jpeg" alt="Pinata Cake" style="width:100%">
+      <h4>Pinata Cake</h4>
+      <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+      <p>A combination of red & gold</p>
+    </div>
+  </div>
+  <div class="column pinatacake">
+    <div class="content">
+      <img src="p.jpeg" alt="Pinata Cake" style="width:100%">
+      <h4>Pinata Cake</h4>
+      <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+      <p>A combination of pink & purple</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+</div>
+
+  
+<br>
+
+    
+
+<!-- Chat -->
+    <button class="open-button" onclick="openForm()">Chat</button>
+
+    <div class="chat-popup" id="myForm">
+      <form action="/action_page.php" class="form-container">
+        <h1>Chat</h1>
+    
+        <label for="msg"><b>Message</b></label>
+        <textarea placeholder="Type message.." name="msg" required></textarea>
+    
+        <button type="submit" class="btn">Send</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+      </form>
+    </div>
+
+    <footer class="footer"> 
+      <div class="container">
+        <div class="row">
+          <div class="footer-box">
+            <h4>Sissy.co</h4>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Our Services</a></li>
+              <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-box">
+            <h4>Collection</h4> 
+            <ul>
+              <li><a href="upcomingmenu.html">Upcoming Menu</a></li>
+            </ul>
+          </div>
+          <div class="footer-box">
+            <h4>Ideas</h4>
+            <ul>
+            <li><a href="recipes.html">Recipes</a></li> 
+            </ul>
+          </div>
+          <div class="footer-box">
+            <h4>Follow Us</h4>
+            <div class="social-links">
+              <a href="https://instagram.com/_sissy.co?utm_medium=copy_link"><i class="fab fa-phone"></i></a>
+              <a href="http://wa.link/w3gyt5"><i class="fab fa-phone"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="sissy">
+      <p> &copy; 2022 Sissy.co - Something Sweet Inside.</p>
+      </div>
+    </footer>
+    
+    
+    
+
+<!-- Scroll Up -->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+
+    
+    <script>
+function myFunction(x) {
+  x.classList.toggle("fa-thumbs-down");
+}
+
+  //Get the button
+  var mybutton = document.getElementById("myBtn");
+  
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+
+
+
+    // Offer 
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+
+
+
+
+
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+
+
+
+filterSelection("all") // Execute the function and show all columns
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+// Show filtered elements
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+
+    
+// Popup Chat Window
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+
+
+
+
+    </script>
+</body>
+</html>
